@@ -40,4 +40,66 @@
 }
 
 
+#mainHeader {
+    float: left;
+    width: 100%;
+    height: 780px;
+}
+nav{
+    background-color: rgba(10, 141, 202,0.4);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.videoContainer{
+    position: relative;
+    width: 100%;
+}
+
+
+.videoContainer video{
+    position: absolute;
+    width: 100%;
+    top: -64px;
+    left: 0;
+}
+
+.content{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 300px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 18px;
+}
+#googleMapsContainer iframe{
+    width: 100%;
+    height: 200px;
+}
+h4{
+  text-align: center; 
+  font-family: 'Indie Flower', cursive;
+  color: black 
+}
+.page-footer {
+     background-color: rgb(10, 141, 202);
+    
+}
+h5{
+    text-align: left;
+}
+.parallax-container {
+    height: 600px;
+    bottom: 90px;
+     
+
+  }
+
+#container1{
+    width: 1250px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0);
+}
 
