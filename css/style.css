@@ -1,0 +1,30 @@
+nav{
+    background-color: rgba(10, 141, 202,0.4);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.videoContainer{
+    position: relative;
+    width: 100%;
+}
+
+
+.videoContainer video{
+    position: absolute;
+    width: 100%;
+    top: -64px;
+    left: 0;
+}
+
+.content{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 300px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 18px;
+}
+
