@@ -21,3 +21,8 @@ $(document).ready(function(){
     //Define the new width and centrally align the iframe
     video.css({"width":newWidth+"px","left":"50%","margin-left":"-"+halfNewWidth+"px"});
   }
+
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+  $('.carousel').carousel('prev');
