@@ -1,6 +1,7 @@
 #listContainer h2 {
     text-align: center;
-    color: darkgreen;
+    font-family: 'Indie Flower', cursive;
+    color:  rgba(10, 141, 202,0.4);
     text-shadow: 2px 2px 4px #000000;
     
 }
@@ -16,7 +17,6 @@
     height: 390px;
     padding-left: 50px;
     padding-right: 50px;
-    box-shadow: 5px 5px grey;
     cursor: pointer;
 }
 
@@ -85,10 +85,11 @@ nav{
 h4{
   text-align: center; 
   font-family: 'Indie Flower', cursive;
-  color: black 
+  color: rgba(10, 141, 202,0.4); 
+  text-shadow: 2px 2px 4px #000000;
 }
 .page-footer {
-     background-color: rgb(10, 141, 202);
+  background-color:  rgba(10, 141, 202,0.4);
     
 }
 h5{
@@ -97,10 +98,8 @@ h5{
 }
 .parallax-container {
     height: 600px;
-    
-     
-
-  }
+    padding: 20px;
+}
 
 #container1{
     width: 1250px;

@@ -1,10 +1,15 @@
 $(document).ready(function(){
+
     $('.parallax').parallax();
-  
+    Materialize.updateTextFields();
     sizeTheVideo();
+
     $(window).resize(function(){
       sizeTheVideo();
     });  
+  
+    $('.carousel').carousel();
+    $('.carousel').carousel('prev');
   });
   
   function sizeTheVideo(){
@@ -21,8 +26,3 @@ $(document).ready(function(){
     //Define the new width and centrally align the iframe
     video.css({"width":newWidth+"px","left":"50%","margin-left":"-"+halfNewWidth+"px"});
   }
-
-  $(document).ready(function(){
-    $('.carousel').carousel();
-  });
-  $('.carousel').carousel('prev');
