@@ -6,6 +6,7 @@
     
 }
 #listContainer .col {
+    padding: 0px;
     position: relative;
     -ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* Safari */
@@ -121,6 +122,17 @@ body{
     padding: 587px;
     cursor: pointer;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#listContainer{
+    width: 1230px;
+}
+
 
 
 
