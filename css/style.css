@@ -73,6 +73,8 @@ nav{
 .videoContainer{
     position: relative;
     width: 100%;
+    float: left;
+    height: 100%;
 }
 
 
@@ -149,5 +151,18 @@ carousel{
 #karusele{
     margin-top: -75px;
 }
+#nav-mobile form {
+    float: left;
+    position: relative;
+    right: -187px;
+}
+
+ #searchBtn {
+    float: left;
+    position: absolute;
+    top: 24px;
+    right: 0px;
+}
+
 
 
