@@ -27,7 +27,6 @@ $(document).ready(function(){
     $('.carousel').carousel({   
       shift: 550
     });
-  });
 
-var naujienlaiskis;
-naujienlaiskis = prompt("Jei norite gauti naujienas, suveskite el.paštą")
+
+  });
