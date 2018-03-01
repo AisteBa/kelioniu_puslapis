@@ -1,9 +1,10 @@
 #listContainer h2 {
     text-align: center;
-    font-family: 'Indie Flower', cursive;
-    color:  rgba(10, 141, 202,0.4);
-    text-shadow: 2px 2px 4px #000000;
-    
+    font-family: "Roboto", Arial;
+    color:  rgba(10, 141, 202,1);
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.3 );
+    text-transform: uppercase;
+    font-size: 30px;
 }
 #listContainer .col {
     position: relative;
@@ -19,7 +20,10 @@
     padding-right: 50px;
     cursor: pointer;
 }
-
+select {
+    display: block;
+    width: 300px;
+}
 
 #listContainer .rowContainer .col:hover {
     position: relative;
