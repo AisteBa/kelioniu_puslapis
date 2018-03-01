@@ -9,6 +9,13 @@ $(document).ready(function(){
   $('.parallax').parallax();
   Materialize.updateTextFields();
   
-    $('.carousel').carousel();
-    $('.carousel').carousel('prev');
+    // $('.carousel').carousel();
+    // $('.carousel').carousel('prev');
+  
+    $('.carousel').carousel({   
+      shift: 550
+    });
   });
+
+var naujienlaiskis;
+naujienlaiskis = prompt("Jei norite gauti naujienas, suveskite el.paštą")

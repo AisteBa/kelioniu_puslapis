@@ -32,6 +32,9 @@ h3 {
 select {
     display: block;
     width: 300px;
+    text-align-last: center;
+    margin: 15px auto 0px;
+   
 }
 
 #listContainer .rowContainer .col:hover {
@@ -135,6 +138,16 @@ body{
     padding: 587px;
     cursor: pointer;
 }
+.row {
+    text-align: center;
+}
 
+carousel{
+    perspective: initial;
+    -webkit-perspective: 500px;
+}
+#karusele{
+    margin-top: -75px;
+}
 
 
