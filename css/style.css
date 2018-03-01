@@ -58,6 +58,8 @@ nav{
 .videoContainer{
     position: relative;
     width: 100%;
+    float: left;
+    height: 100%;
 }
 
 
@@ -120,6 +122,19 @@ body{
     margin: 20;
     padding: 587px;
     cursor: pointer;
+}
+
+#nav-mobile form {
+    float: left;
+    position: relative;
+    right: -187px;
+}
+
+ #searchBtn {
+    float: left;
+    position: absolute;
+    top: 24px;
+    right: 0px;
 }
 
 
