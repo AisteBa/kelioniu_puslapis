@@ -14,28 +14,66 @@
 
 <body>
     <header >
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo center">Logo</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li>
-                        <a href="sass.html">Activities</a>
-                    </li>
-                    <li>
-                        <a href="badges.html">Destinations</a>
-                    </li>
-                    <li>
-                        <a href="collapsible.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="fourth.html">Bookings</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+            <nav>
+                    <div class="container nav-wrapper">
+                      <a href="#" class="brand-logo center"><img height="72" src="images/logo.png"></a>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html#listContainer">Kelionės</a></li>
+                        <li><a href="Uzsakymas.html">Kontaktai</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+        </header>
+        <div id="container1">
         <main>
-            <h4>Užpildyk formą ir mes su Tavim susisieksime!</h4>
+            <br/>
+            <img height="150" src="images/Contact-US.png" class="center">            
+             <br/>  
+            <h2>Užpildyk formą ir mes su Tavim susisieksime!</h2>
             <br>
+            <br>
+            <div>
+            <form id="forma">
+                <span>Pasirinkite šalį, į kurią norėtumėt keliauti:</span>
+                <select name="Šalis" size="3">
+                  <option value="Australija">Australija</option>
+                  <option value="JAV">JAV</option>
+                  <option value="Šri Lanka">Šri Lanka</option>
+                </select>
+                <br>
+                <span>Kiek asmenų keliaus:</span>
+                <select name="Asmenys">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                </select>
+                <br>
+                <span>Kiek naktų reikalinga viešbutyje:</span>
+                <select name="Naktys">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                </select>
+                
+              </form>
+            </div>  
             <br>
             <div class="row">
                 <div class="input-field col s3">
@@ -54,12 +92,17 @@
                     <input value="Įvesk el. paštą" id="first_name2" type="text" class="validate">
                     <label class="active" for="first_name2">El. paštas</label>
                 </div>
+                </div>
+            <div>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+                </button>
+                
             </div>
-
-            <br>
-            <br>
-
+           <br>
+           <br>
         </main>
+        </div>
         <footer class="page-footer">
                 <div class="container">
                   <div class="row">
@@ -73,7 +116,7 @@
                       <h5 class="white-text">Nuorodos</h5>
                       <ul>
                         <li>
-                          <a class="grey-text text-lighten-3" href="index.html">Titulinis</a>
+                          <a class="grey-text text-lighten-3" href="index.html">Pagrindinis</a>
                         </li>
                         <li>
                           <a class="grey-text text-lighten-3" href="https://www.google.lt/?gfe_rd=cr&dcr=0&ei=s5eVWuq6DIexX-_apLAP">Google</a>
