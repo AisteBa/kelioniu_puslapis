@@ -156,6 +156,10 @@ body{
     cursor: pointer;
 }
 
+#ftiContainer a {
+    margin: 0 10px;
+}
+
 .row {
     text-align: center;
 }
