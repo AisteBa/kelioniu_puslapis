@@ -16,10 +16,14 @@
     <header >
             <nav>
                     <div class="container nav-wrapper">
-                      <a href="#" class="brand-logo center"><img height="72" src="images/logo.png"></a>
+                      <a href="index.html" class="brand-logo center"><img height="72" src="images/logo.png"></a>
                       <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="index.html#listContainer">Kelionės</a></li>
                         <li><a href="Uzsakymas.html">Kontaktai</a></li>
+                        <form action="search.php" method="post">
+                          <input type="text" id="searchBar" placeholder="" value="Paieška..." maxlength="25" autocomplete="off" onMouseDown="" onBlur="" />
+                          <input type="submit" id="searchBtn" value="Go!" />
+                        </form>
                       </ul>
                     </div>
                   </nav>

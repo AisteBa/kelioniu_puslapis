@@ -90,9 +90,13 @@ nav{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     text-align: center;
-    margin: 300px;
+    margin: auto;
     background-color: rgba(0,0,0,0.5);
-    padding: 18px;
+    padding: 30px;
+    right: 500px;
+    left: 490px;
+    top: 113px;
+    width: 458;
 }
 #googleMapsContainer iframe{
     width: 100%;
@@ -152,6 +156,10 @@ body{
     cursor: pointer;
 }
 
+#ftiContainer a {
+    margin: 0 10px;
+}
+
 .row {
     text-align: center;
 }
@@ -176,5 +184,6 @@ carousel{
     right: 0px;
 }
 
-
-
+#searchBar {
+    margin: 0;
+}
