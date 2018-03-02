@@ -34,47 +34,50 @@
             <br>
             <br>
             <div class="row">
-            <form>
+            <form Name="myform">
                 <span>Pasirinkite šalį, į kurią norėtumėt keliauti:</span>
-                <select name="Šalis" size="3">
-                  <option value="Australija">Australija</option>
-                  <option value="JAV">JAV</option>
-                  <option value="Šri Lanka">Šri Lanka</option>
+                <select name="salis" size="3">
+                  <option value="1000">Australija</option>
+                  <option value="654">JAV</option>
+                  <option value="988">Šri Lanka</option>
                 </select>
                 <br>
                 <span>Kiek asmenų keliaus:</span>
-                <select name="Asmenys">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
+                <select name="asmenys">
+                  <option type="number" value="1">1</option>
+                  <option type="number" value="2">2</option>
+                  <option type="number" value="3">3</option>
+                  <option type="number" value="4">4</option>
+                  <option type="number" value="5">5</option>
+                  <option type="number" value="6">6</option>
+                  <option type="number" value="7">7</option>
+                  <option type="number" value="8">8</option>
+                  <option type="number" value="9">9</option>
                 </select>
                 <br>
                 <span>Kiek naktų reikalinga viešbutyje:</span>
-                <select name="Naktys">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                        <option value="13">13</option>
-                        <option value="14">14</option>
+                <select name="naktys">
+                        <option type="number" value="1">1</option>
+                        <option type="number" value="2">2</option>
+                        <option type="number" value="3">3</option>
+                        <option type="number" value="4">4</option>
+                        <option type="number" value="5">5</option>
+                        <option type="number" value="6">6</option>
+                        <option type="number" value="7">7</option>
+                        <option type="number" value="8">8</option>
+                        <option type="number" value="9">9</option>
+                        <option type="number" value="10">10</option>
+                        <option type="number" value="11">11</option>
+                        <option type="number" value="12">12</option>
+                        <option type="number" value="13">13</option>
+                        <option type="number" value="14">14</option>
                 </select>
-                
-              </form>
-            </div>  
+                <br>
+                <button onclick="kaina()">Paskaičiuoti kainą</button>
+                <span text-align="center" id="rezultatas"></span>
+                <br>
+              </form> 
+            </div> 
             <br>
             <div class="row">
                 <div class="input-field col s3">

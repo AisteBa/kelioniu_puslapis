@@ -25,8 +25,17 @@ $(document).ready(function(){
     // $('.carousel').carousel('prev');
   
     $('.carousel').carousel({   
-      shift: 550
+      shift: 250
     });
-
-
   });
+
+  function kaina() {
+    var elt = document.getElementById("salis");
+    var q = elt.options[elt.selectedIndex].value;
+    var elt = document.getElementById("asmenys");
+    var y = elt.options[elt.selectedIndex].value;
+    var elt = document.getElementById("naktys");
+    var z = elt.options[elt.selectedIndex].value;
+    var x = + q + (+y * (+z * 83));
+    document.getElementById("rezultatas").innerHTML = x;
+}

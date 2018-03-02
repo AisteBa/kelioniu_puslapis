@@ -101,7 +101,7 @@ nav{
 
 h4{
   text-align: center; 
-  font-family: 'Indie Flower', cursive;
+  font-family: "Roboto", Arial;
   color: rgba(10, 141, 202,0.4); 
   text-shadow: 2px 2px 4px #000000;
 }
@@ -112,7 +112,7 @@ h4{
 }
 h5{
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Roboto", Arial;
 }
 .parallax-container {
     height: 600px;
